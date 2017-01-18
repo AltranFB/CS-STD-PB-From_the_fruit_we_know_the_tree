@@ -19,6 +19,22 @@ namespace Project
 
         public Node Find(int value)
         {
+            Node current = this;
+            while (current != null)
+            {
+                if (current.Value == value)
+                {
+                    return current;
+                }
+                else if (current.Value > value)
+                {
+                    current = current.Left;
+                }
+                else
+                {
+                    current = current.Right;
+                }
+            }
             return null;
         }
 
