@@ -23,7 +23,7 @@ namespace Project
         }
 
         [TestMethod]
-        public void Test1()
+        public void SmallTree()
         {
             Node n = TreeRoot.Find(8);
             Check.That(n).IsNotNull();
@@ -31,7 +31,7 @@ namespace Project
         }
 
         [TestMethod]
-        public void Test2()
+        public void NodeDoesntExist()
         {
             Node n = TreeRoot.Find(4);
             Check.That(n).IsNull();
