@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NFluent;
 
-namespace Project
+namespace FromTheFruitWeKnowTheTree
 {
     [TestClass]
     public class Tests
